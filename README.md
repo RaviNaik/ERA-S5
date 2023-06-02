@@ -11,12 +11,12 @@
 ### Usage
  1. Import required modules in S5.ipynb notebook, including `torch`, `torchvision` and other submodules
  2. Import NeuralNet model `Net` class from `model.py`
- 3 Import training functions, helper functions for plotting etc from `utils.py`
- 4 Start with image transformation using `torchvision.transforms`
- 5 Download the MNIST data and create a dataset out of it, using `torchvision.datasets`
- 6 Create both training and testing dataloaders with required number of batches
- 7 Define **loss function, optimizer, learning rate, scheduler, epochs** with preferred hyper paramters
- 8 Start the model training and accumulate the losses and accuracy values for both training and testing phases
- 9 Once training is completed, evaluate the losses and accuracy values collected during the training using plot_results function
- 10 We can also check the internals of the model using `summary` function from `torchinfo` module *(Added sample below)*
+ 3. Import training functions, helper functions for plotting etc from `utils.py`
+ 4. Start with image transformation using `torchvision.transforms`
+ 5. Download the MNIST data and create a dataset out of it, using `torchvision.datasets`
+ 6. Create both training and testing dataloaders with required number of batches
+ 7. Define **loss function, optimizer, learning rate, scheduler, epochs** with preferred hyper paramters
+ 8. Start the model training and accumulate the losses and accuracy values for both training and testing phases
+ 9. Once training is completed, evaluate the losses and accuracy values collected during the training using plot_results function
+ 10. We can also check the internals of the model using `summary` function from `torchinfo` module *(Added sample below)*
 
