@@ -9,8 +9,8 @@
 - `S5.ipynb` This is out main notebook where we perform our experiments with MNIST dataset and the defined model.
 
 ### Usage
- 1 Import required modules in S5.ipynb notebook, including `torch`, `torchvision` and other submodules
- 2 Import NeuralNet model `Net` class from `model.py`
+ 1. Import required modules in S5.ipynb notebook, including `torch`, `torchvision` and other submodules
+ 2. Import NeuralNet model `Net` class from `model.py`
  3 Import training functions, helper functions for plotting etc from `utils.py`
  4 Start with image transformation using `torchvision.transforms`
  5 Download the MNIST data and create a dataset out of it, using `torchvision.datasets`
